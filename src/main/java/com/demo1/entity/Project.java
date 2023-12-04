@@ -9,8 +9,8 @@ import java.util.Date;
 @Data
 public class Project {
 
-@Id
-@GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String employeeid;
     private String employeename;
@@ -23,7 +23,7 @@ public class Project {
     private Date activitydate;
     private int activityeffort;
     private String activitydescription;
-    private  String activitytype;
+    private String activitytype;
     private String status;
     private Date createdAt;
     private Date updatedAt;
